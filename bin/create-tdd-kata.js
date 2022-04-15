@@ -24,7 +24,7 @@ prog
       console.log(err);
       process.exit(1);
     }
-    const packageJson = require(path.resolve('../template', 'package.json'));
+    const packageJson = require(path.join(process.env, '../template', 'package.json'));
     packageJson.name = appName;
     fs.writeFileSync(path.join(root, 'package.json'), JSON.stringify(packageJson, null, 2) + os.EOL);
     process.chdir(root);
