@@ -1,6 +1,6 @@
 {
   "name": "create-tdd-kata",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "bin": {
     "create-tdd-kata": "./bin/create-tdd-kata.js"
   },
