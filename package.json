@@ -1,0 +1,22 @@
+{
+  "name": "create-tdd-kata",
+  "version": "0.1.0",
+  "description": "Generator for Javascript TDD kata practicing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdumitraskovic/create-tdd-kata.git"
+  },
+  "keywords": [
+    "javascript",
+    "tdd"
+  ],
+  "author": "Vladimir Dumitraskovic <user@vdumitraskovic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdumitraskovic/create-tdd-kata/issues"
+  },
+  "homepage": "https://github.com/vdumitraskovic/create-tdd-kata#readme"
+}
