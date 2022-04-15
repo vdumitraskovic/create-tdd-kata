@@ -4,6 +4,11 @@
   "bin": {
     "create-tdd-kata": "./bin/create-tdd-kata.js"
   },
+  "files": [
+    "package.json",
+    "bin",
+    "template"
+  ],
   "description": "Generator for Javascript TDD kata practicing",
   "scripts": {
     "release": "release-it"
