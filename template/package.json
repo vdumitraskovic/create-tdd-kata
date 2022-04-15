@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest watch"
+  },
+  "dependencies": {
+    "vitest": "^0.9.3"
+  }
+}
