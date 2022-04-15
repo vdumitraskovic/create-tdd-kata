@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Generator for Javascript TDD kata practicing",
   "scripts": {
-    "test": "vitest watch"
+    "test": "vitest watch",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,10 @@
     "url": "https://github.com/vdumitraskovic/create-tdd-kata/issues"
   },
   "homepage": "https://github.com/vdumitraskovic/create-tdd-kata#readme",
-  "devDependencies": {
+  "dependencies": {
     "vitest": "^0.9.3"
+  },
+  "devDependencies": {
+    "release-it": "^14.14.2"
   }
 }
