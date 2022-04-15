@@ -1,9 +1,11 @@
 {
   "name": "create-tdd-kata",
   "version": "0.1.1",
+  "bin": {
+    "create-tdd-kata": "./bin/create-tdd-kata.js"
+  },
   "description": "Generator for Javascript TDD kata practicing",
   "scripts": {
-    "test": "vitest watch",
     "release": "release-it"
   },
   "repository": {
@@ -20,10 +22,11 @@
     "url": "https://github.com/vdumitraskovic/create-tdd-kata/issues"
   },
   "homepage": "https://github.com/vdumitraskovic/create-tdd-kata#readme",
-  "dependencies": {
-    "vitest": "^0.9.3"
-  },
   "devDependencies": {
     "release-it": "^14.14.2"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "sade": "^1.8.1"
   }
 }
